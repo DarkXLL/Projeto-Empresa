@@ -34,4 +34,12 @@ convert xamarin_forms.jpg xamarin_forms.png
 convert zend.jpg zend.png
 mkdir imagens_full_png
 mv *.png imagens_full_png
+zip -r png.zip imagens_full_png
+mv png.zip imagens_full_png
+cd imagens_full_png
+mkdir sem_zip
+mv *.png sem_zip
+
+
+
 
